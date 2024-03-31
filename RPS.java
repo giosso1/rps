@@ -1,10 +1,13 @@
 public enum RPS {
+    //initialize enums
     ROCK, PAPER, SCISSORS;
 
+    //returns array of ENUMs
     public static RPS[] getEnumConstants(){
         return new RPS[] {ROCK, PAPER, SCISSORS};
     }
 
+    //calculate winner
     public static String win(RPS p1, RPS p2){
         String win1 = "Player 1 Wins";
         String win2 = "Player 2 Wins";
